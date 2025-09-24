@@ -32,5 +32,6 @@ This activity gets you to write your first lines of Python (if you haven't writt
     # Call the sum_all function, pass it "values".
     # Print the result
     ```
-5. Commit your code to git and push it to github.
-6. Check your tests passed!
+5. Check your code runs.
+
+See https://derekfoster1976.github.io/GenAI_WW_Activity/genai_activity.html for you Generative AI activity (i.e. Activity 2).
