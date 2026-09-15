@@ -2,9 +2,9 @@
 
 Have a go at the challenges listed below. You don't have to do them in order. Help each other and make sure everyone in the team has a go at typing an answer. 
 
-After you have completed a challenge, add your solution to ```solutions.py```. Commit and push your changes -- did the test for that challenge pass?
+After you have completed a challenge, add your solution to ```challenges.py```. Re-run the pytests -- did the test for that challenge pass?
 
-To test offline: open a terminal window, change to the directory your solutions.py file is in and enter ```pytest test_solutions.py::<name of test method>```, replacing ```<name of test method>``` with the name of the test method e.g., ```pytest test_solutions.py::test_change_options```.
+To run a single test you can use: ```pytest test_challenges.py::<name of test method>```, replacing ```<name of test method>``` with the name of the test method e.g., ```pytest test_challenges.py::test_change_options```.
 
 Try to solve the challenges without looking at the solution online (you can of course search for Python functions and syntax -- but try not to just look-up the complete solution :smiley_cat:). 
 

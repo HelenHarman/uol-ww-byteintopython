@@ -1,9 +1,10 @@
-# Introduction to Python and Github classroom
+# Introduction to Python
 
-This activity gets you to write your first lines of Python (if you haven't written Python before) and allows you to learn how to use github classroom. 
+This activity gets you to write your first lines of Python (if you haven't written Python before). 
 
 1. Open up the hello_world.py file and try running it.
-2. Copy the following block of code into hello_world.py:
+2. USe the pytest command to run the tests contained within test_hello_world.py. (The tests should all fail.)
+3. Copy the following block of code into hello_world.py:
     ```
     # We use "def" to define a function.
     # This sum function takes two parameters, a and b. 
@@ -18,8 +19,8 @@ This activity gets you to write your first lines of Python (if you haven't writt
     # print the result to the console:
     print (result)
     ```
-3. Try running this code.
-4. Copy in and run the following code:
+4. Try running this code.
+5. Copy in and run the following code:
     ```
     def sum_all(values):
         total = 0
@@ -32,6 +33,6 @@ This activity gets you to write your first lines of Python (if you haven't writt
     # Call the sum_all function, pass it "values".
     # Print the result
     ```
-5. Check your code runs.
+6. Check your code runs. Re-running pytest should result in two tests passing.
 
 See https://derekfoster1976.github.io/GenAI_WW_Activity/genai_activity.html for you Generative AI activity (i.e. Activity 2).
