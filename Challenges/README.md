@@ -1,6 +1,6 @@
 # :zap: Challenges
 
-Have a go at the challenges listed below. You don't have to do them in order. Help each other and make sure everyone in the team has a go at typing an answer. 
+Have a go at the challenges listed below. You don't have to do them in order. Help each other and make sure everyone in the team has a go at typing an answer. For each challenge, you may wish to note down the logic (without the correct syntax) before trying to write the solution in Python.
 
 After you have completed a challenge, add your solution to ```challenges.py```. Re-run the pytests -- did the test for that challenge pass?
 
@@ -15,6 +15,11 @@ The function must be called ```find_longest_word``` and it must have a single pa
 
 For example, when provided the string "My name is Sabrina and I am Derek's cat.", your function should return 7. 
 
+Hints:
+- ```sentence.split()``` splits the content of the "sentence" variable into a list. The default separator is any white space.
+- A ```for``` loop (https://www.w3schools.com/python/python_for_loops.asp) enables you to iterate over each item in a list.
+- ```len(word)``` returns the length of the content of the "word" variable.
+- If statements enables a block of code to be executed if the condition is true.
 
 ## Challenge 2 – Move Capital Letters to the Front  
 
@@ -23,7 +28,10 @@ The function must be called ```move_capitals_to_front``` and it must have a sing
 
 For example, when provided the string "eHllo" the function should return "Hello". 
 
-(Hint: python strings have a isupper function.) 
+Hints:
+- Strings can be treated as lists. ```for char in word:``` will loop through each character in the variable word.
+- Python strings have a ```isupper``` function, which returns a Boolean (e.g. ```char.isupper()```).
+- You can add strings together using +
 
 ## Challenge 3 – :tropical_drink: FizzBuzz 
 
@@ -31,7 +39,10 @@ In FizzBuzz, players count up from 1 to n. Multiples of 3 are replaced by "Fizz"
 Write a ```fizzbuzz``` function that takes n as input and outputs an array. 
 
 For example, ```fizzbuzz(16)``` should output ```[1, 2, "Fizz", 4, "Buzz", "Fizz", 7, 8, "Fizz", "Buzz", 11, "Fizz", 13, 14, "FizzBuzz", 16]```
- 
+
+ Hint:
+ - You may find using the range() function useful (https://www.w3schools.com/python/ref_func_range.asp).
+ - You can append to a list using my_list.append(item).
 
 ## Challenge 4 – :door: Open Doors 
 
@@ -68,9 +79,9 @@ Imagine you are building an ATM. You need to figure out how many different ways 
 4 + 5 \
 3 + 3 + 3
 
-Note, you have unlimitted amounts coins for each of the given values. 
+Note, you have unlimited amounts coins for each of the given values. 
 
-Write a function called ```change_options``` that takes two paramters: 1) the amount needed and 2) the values of the coins in the ATM. This function returns a single value (i.e. the number of ways to make up that amount). 
+Write a function called ```change_options``` that takes two parameters: 1) the amount needed and 2) the values of the coins in the ATM. This function returns a single value (i.e. the number of ways to make up that amount). 
 
 
 __Finding this one too hard?__ Ask copilot for the solution and test out that solution. Get copilot to explain the solution to you.
@@ -82,7 +93,7 @@ Imagine you are a thief who has just broken into someone's house. There is a lim
 
 Write a function called ```knapsack``` that takes three parameters: 1) the maximum weight you can carry, 2) a list containing the weight of the items in the house and 3) a list containing the value of the items in the house (for both lists the items are in the same order). You need to return the total value of the items you will take from the house. 
 
-For example, if the capacity is 10, the item weights are [3, 6, 10] and the item values [50, 60, 100], then the output would be 110 (as the thief would steal the first item and the second items). 
+For example, if the capacity is 10, the item weights are [3, 6, 10] and the item values [50, 60, 100], then the output would be 110 (as the thief would steal the first item and the second item). 
 
 
 __Finding this one too hard?__ Ask copilot for the solution and test out that solution. Get copilot to explain the solution to you.
