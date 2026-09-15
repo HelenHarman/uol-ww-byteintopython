@@ -64,15 +64,15 @@ def test_knapsack():
     capacity = 10
     weights = [3, 6, 10]
     values = [50, 60, 100]
-    assert 110 == challenges.knapsack(capacity, weights, values, len(values))
+    assert 110 == challenges.knapsack(capacity, weights, values)
     
     capacity = 10
     weights = [10, 10, 10]
     values = [50, 60, 100]
-    assert 100 == challenges.knapsack(capacity, weights, values, len(values))
+    assert 100 == challenges.knapsack(capacity, weights, values)
     
     capacity = 20
     weights = [10, 15, 10, 1, 5]
     values = [50, 60, 100, 50, 40]
-    assert 190 == challenges.knapsack(capacity, weights, values, len(values))
+    assert 190 == challenges.knapsack(capacity, weights, values)
 
