@@ -1,9 +1,11 @@
 # Introduction to Python
 
+Open the ByteIntoPython_GettingStarted_guide.pdf file for detailed instructions. This file contains an outline of the instructions within that PDF file.
+
 This activity gets you to write your first lines of Python (if you haven't written Python before). 
 
 1. Open up the hello_world.py file and try running it.
-2. USe the pytest command to run the tests contained within test_hello_world.py. (The tests should all fail.)
+2. Use the pytest command to run the tests contained within test_hello_world.py. (The tests should all fail.)
 3. Copy the following block of code into hello_world.py:
     ```
     # We use "def" to define a function.
@@ -19,7 +21,7 @@ This activity gets you to write your first lines of Python (if you haven't writt
     # print the result to the console:
     print (result)
     ```
-4. Try running this code.
+4. Try running the code.
 5. Copy in and run the following code:
     ```
     def sum_all(values):
