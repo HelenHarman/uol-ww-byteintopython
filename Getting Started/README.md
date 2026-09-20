@@ -37,4 +37,4 @@ This activity gets you to write your first lines of Python (if you haven't writt
     ```
 6. Check your code runs. Re-running pytest should result in two tests passing.
 
-See https://derekfoster1976.github.io/GenAI_WW_Activity/genai_activity.html for you Generative AI activity (i.e. Activity 2).
+See [https://derekfoster1976.github.io/GenAI_WW_Activity/genai_activity.html](https://derekfoster1976.github.io/GenAI_WW_Activity/WW_GenAI.html) for you Generative AI activity (i.e. Activity 2).
